@@ -7,15 +7,19 @@ export default {
   theme: {
     extend: {
       colors: {
-        cream: '#F7F0E6',
-        beige: '#E5D2BB',
-        terracotta: '#B98260',
-        olive: '#6B705C',
-        cokelat: '#342A24',
+        paper: '#FBF7F0',
+        ink: '#2B1B17',
+        olive: '#5A6B5C',
+        terracotta: '#C86D51',
+        beige: '#E8D8C8',
+        line: '#2B1B17',
+        muted: '#6B5E57',
       },
       fontFamily: {
-        'hand': ['"Patrick Hand"', 'cursive'],
-      }
+        sans: ['"DM Sans"', 'sans-serif'],
+        serif: ['"Playfair Display"', 'serif'],
+        hand: ['"Patrick Hand"', 'cursive'],
+      },
     },
   },
   plugins: [],
