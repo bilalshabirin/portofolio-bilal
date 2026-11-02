@@ -147,14 +147,6 @@ const Navbar = () => {
               <span className="absolute left-0 -bottom-1.5 w-full h-[3px] bg-terracotta rounded-full"></span>
             )}
           </Link>
-
-          {/* Kontak */}
-          <Link 
-            to="/tentang#kontak" 
-            className="py-1 transition-all duration-200 hover:text-terracotta hover:-translate-y-0.5"
-          >
-            Kontak
-          </Link>
         </div>
       </nav>
 
