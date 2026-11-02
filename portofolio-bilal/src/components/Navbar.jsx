@@ -51,7 +51,7 @@ const Navbar = () => {
         </Link>
 
         {/* Menu Navigasi Utama */}
-        <div className="hidden md:flex items-center space-x-8 lg:space-x-10 text-lg sm:text-medium  font-bold tracking-wide text-ink/90">
+        <div className="hidden md:flex items-center space-x-8 lg:space-x-10 text-lg sm:text-medium font-bold tracking-wide text-ink/90">
           
           {/* Beranda */}
           <Link 
@@ -84,6 +84,15 @@ const Navbar = () => {
                 >
                   <Calendar size={16} className="text-terracotta shrink-0" /> Jadwal Kuliah
                 </Link>
+
+                {/* Sub-menu Baru: Catatan Kuliah */}
+                <Link 
+                  to="/akademik/catatan" 
+                  className="px-3.5 py-2.5 rounded-lg hover:bg-[#F3E6D4] hover:text-terracotta text-ink transition-all duration-150 flex items-center gap-2.5"
+                >
+                  <BookOpen size={16} className="text-terracotta shrink-0" /> Catatan Kuliah
+                </Link>
+
                 <Link 
                   to="/akademik/keuangan" 
                   className="px-3.5 py-2.5 rounded-lg hover:bg-[#F3E6D4] hover:text-terracotta text-ink transition-all duration-150 flex items-center gap-2.5"

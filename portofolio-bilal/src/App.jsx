@@ -5,6 +5,7 @@ import Beranda from './pages/Beranda';
 import JadwalKuliah from './pages/JadwalKuliah';
 import Tentang from './pages/Tentang';
 import Project from './pages/Project';
+import CatatanKuliah from './pages/Catatan Kuliah';
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
           {/* Route Akademik */}
           <Route path="/akademik/jadwal" element={<JadwalKuliah />} />
           <Route path="/akademik" element={<Navigate to="/akademik/jadwal" replace />} />
+          <Route path="/akademik/catatan" element={<CatatanKuliah />} />
           
           <Route path="/tentang" element={<Tentang />} />
           <Route path="/project" element={<Project />} />
